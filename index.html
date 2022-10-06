@@ -1,0 +1,136 @@
+<?php 
+/* Редактор для Minetweaker extreme crafting table
+*  Автор: Cadregich
+*  Связь дискорд: Cadregich#5412
+*  Версия: 1.3
+*/ 
+ ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Extreme Editor</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="editor">
+<form method="post">
+    <input class="input" name="additemn" type="text" placeholder="Добавить название">
+    <input class="input" name="additem" type="text" placeholder="Добавить значение">  <input class="buttons1" type="submit" name="submititem" value="Добавить"> <input class="buttons" type="submit" name="showitem" value="Показать название"> <input class="buttons"type="submit" name="showitemn" value="Показать значение">
+    <input class="clear" type="submit" name="clear" value="Очистить списки">
+</form>
+
+<form method="post"> 
+  <br>
+  <textarea name="1x1" cols="10" rows="4" placeholder="1x1"></textarea><textarea name="1x2" cols="10" rows="4" placeholder="1x2"></textarea><textarea name="1x3" cols="10" rows="4" placeholder="1x3"></textarea><textarea name="1x4" cols="10" rows="4" placeholder="1x4"></textarea><textarea name="1x5" cols="10" rows="4" placeholder="1x5"></textarea><textarea name="1x6" cols="10" rows="4" placeholder="1x6"></textarea><textarea name="1x7" cols="10" rows="4" placeholder="1x7"></textarea><textarea name="1x8" cols="10" rows="4" placeholder="1x8"></textarea><textarea name="1x9" cols="10" rows="4" placeholder="1x9"></textarea>
+  </br>
+  <textarea name="2x1" cols="10" rows="4" placeholder="2x1"></textarea><textarea name="2x2" cols="10" rows="4" placeholder="2x2"></textarea><textarea name="2x3" cols="10" rows="4" placeholder="2x3"></textarea><textarea name="2x4" cols="10" rows="4" placeholder="2x4"></textarea><textarea name="2x5" cols="10" rows="4" placeholder="2x5"></textarea><textarea name="2x6" cols="10" rows="4" placeholder="2x6"></textarea><textarea name="2x7" cols="10" rows="4" placeholder="2x7"></textarea><textarea name="2x8" cols="10" rows="4" placeholder="2x8"></textarea><textarea name="2x9" cols="10" rows="4" placeholder="2x9"></textarea>
+  </br>
+  <textarea name="3x1" cols="10" rows="4" placeholder="3x1"></textarea><textarea name="3x2" cols="10" rows="4" placeholder="3x2"></textarea><textarea name="3x3" cols="10" rows="4" placeholder="3x3"></textarea><textarea name="3x4" cols="10" rows="4" placeholder="3x4"></textarea><textarea name="3x5" cols="10" rows="4" placeholder="3x5"></textarea><textarea name="3x6" cols="10" rows="4" placeholder="3x6"></textarea><textarea name="3x7" cols="10" rows="4" placeholder="3x7"></textarea><textarea name="3x8" cols="10" rows="4" placeholder="3x8"></textarea><textarea name="3x9" cols="10" rows="4" placeholder="3x9"></textarea>
+  </br>
+  <textarea name="4x1" cols="10" rows="4" placeholder="4x1"></textarea><textarea name="4x2" cols="10" rows="4" placeholder="4x2"></textarea><textarea name="4x3" cols="10" rows="4" placeholder="4x3"></textarea><textarea name="4x4" cols="10" rows="4" placeholder="4x4"></textarea><textarea name="4x5" cols="10" rows="4" placeholder="4x5"></textarea><textarea name="4x6" cols="10" rows="4" placeholder="4x6"></textarea><textarea name="4x7" cols="10" rows="4" placeholder="4x7"></textarea><textarea name="4x8" cols="10" rows="4" placeholder="4x8"></textarea><textarea name="4x9" cols="10" rows="4" placeholder="4x9"></textarea>
+  </br>
+  <textarea name="5x1" cols="10" rows="4" placeholder="5x1"></textarea><textarea name="5x2" cols="10" rows="4" placeholder="5x2"></textarea><textarea name="5x3" cols="10" rows="4" placeholder="5x3"></textarea><textarea name="5x4" cols="10" rows="4" placeholder="5x4"></textarea><textarea name="5x5" cols="10" rows="4" placeholder="5x5"></textarea><textarea name="5x6" cols="10" rows="4" placeholder="5x6"></textarea><textarea name="5x7" cols="10" rows="4" placeholder="5x7"></textarea><textarea name="5x8" cols="10" rows="4" placeholder="5x8"></textarea><textarea name="5x9" cols="10" rows="4" placeholder="5x9"></textarea>
+  </br>
+  <textarea name="6x1" cols="10" rows="4" placeholder="6x1"></textarea><textarea name="6x2" cols="10" rows="4" placeholder="6x2"></textarea><textarea name="6x3" cols="10" rows="4" placeholder="6x3"></textarea><textarea name="6x4" cols="10" rows="4" placeholder="6x4"></textarea><textarea name="6x5" cols="10" rows="4" placeholder="6x5"></textarea><textarea name="6x6" cols="10" rows="4" placeholder="6x6"></textarea><textarea name="6x7" cols="10" rows="4" placeholder="6x7"></textarea><textarea name="6x8" cols="10" rows="4" placeholder="6x8"></textarea><textarea name="6x9" cols="10" rows="4" placeholder="6x9"></textarea>
+  </br>
+  <textarea name="7x1" cols="10" rows="4" placeholder="7x1"></textarea><textarea name="7x2" cols="10" rows="4" placeholder="7x2"></textarea><textarea name="7x3" cols="10" rows="4" placeholder="7x3"></textarea><textarea name="7x4" cols="10" rows="4" placeholder="7x4"></textarea><textarea name="7x5" cols="10" rows="4" placeholder="7x5"></textarea><textarea name="7x6" cols="10" rows="4" placeholder="7x6"></textarea><textarea name="7x7" cols="10" rows="4" placeholder="7x7"></textarea><textarea name="7x8" cols="10" rows="4" placeholder="7x8"></textarea><textarea name="7x9" cols="10" rows="4" placeholder="7x9"></textarea>
+  </br>
+  <textarea name="8x1" cols="10" rows="4" placeholder="8x1"></textarea><textarea name="8x2" cols="10" rows="4" placeholder="8x2"></textarea><textarea name="8x3" cols="10" rows="4" placeholder="8x3"></textarea><textarea name="8x4" cols="10" rows="4" placeholder="8x4"></textarea><textarea name="8x5" cols="10" rows="4" placeholder="8x5"></textarea><textarea name="8x6" cols="10" rows="4" placeholder="8x6"></textarea><textarea name="8x7" cols="10" rows="4" placeholder="8x7"></textarea><textarea name="8x8" cols="10" rows="4" placeholder="8x8"></textarea><textarea name="8x9" cols="10" rows="4" placeholder="8x9"></textarea>
+  </br>
+  <textarea name="9x1" cols="10" rows="4" placeholder="9x1"></textarea><textarea name="9x2" cols="10" rows="4" placeholder="9x2"></textarea><textarea name="9x3" cols="10" rows="4" placeholder="9x3"></textarea><textarea name="9x4" cols="10" rows="4" placeholder="9x4"></textarea><textarea name="9x5" cols="10" rows="4" placeholder="9x5"></textarea><textarea name="9x6" cols="10" rows="4" placeholder="9x6"></textarea><textarea name="9x7" cols="10" rows="4" placeholder="9x7"></textarea><textarea name="9x8" cols="10" rows="4" placeholder="9x8"></textarea><textarea name="9x9" cols="10" rows="4" placeholder="9x9"></textarea> <textarea class="resolt" name="itemname" cols="10" rows="4" placeholder="Результат крафта"></textarea>
+  </br> 
+  <br>
+  <div class="del">
+  <input name="rd" type="checkbox" value="yes">  Удалить прежний репепт 9x9 
+  <input name="pd" type="checkbox" value="yes">  Удалить прежний репепт 3x3 
+  <input class="getcraft" type="submit" name="submit" value="Получить">
+  </div>
+</br>
+</form>
+</div>
+<?php
+include 'text.php';
+$file = 'text.php';
+
+if(isset($_POST['submititem'])) {
+ if ($_POST['additemn'] == "") {
+   echo "Введите название предмета";
+ }elseif ($_POST['additem'] == "") {
+  echo "Введите значение предмета";
+ }else {
+$_POST['additem'] = str_replace('<', '&lt;', $_POST['additem']);
+$current = file_get_contents($file);
+$new_str = str_replace(" ", '', $_POST['additemn']);
+$current = substr($current,0,strlen($current)-2)."'".trim($_POST['additemn'])."' " .'=>'. " '".$_POST['additem'].","."'".",".'];';
+file_put_contents($file, $current);
+}
+}
+
+if (isset($_POST['clear'])) {
+  $cur = file_get_contents($file);
+  $curs = "<?php \$translate = ['' => 'null,',];";
+  file_put_contents($file, $curs);
+}
+
+if(isset($_POST['submit'])) {
+  foreach ($_POST as $key => $value) {
+    $_POST[$key] = trim($_POST[$key]);
+    if(stristr($_POST[$key], '<') == false) {
+      $_POST[$key] = mb_strtolower($_POST[$key]);
+    }
+   $_POST[$key] = str_replace(",", "", $_POST[$key]);
+  }
+
+foreach ($_POST as $k => $v) {
+   if(isset($translate[$v])){
+      $_POST[$k] = $translate[$v];
+      $dad .= $_POST[$k];
+        }elseif(stristr($_POST[$k], '<') == true) {
+          $dad .= str_replace('<', '&lt;', $_POST[$k]).",";
+        }else { 
+          $dad .= "$_POST[$k],";
+   }
+} 
+
+$arrd = explode(",", $dad);
+
+if ($_POST['rd'] != null) {
+  echo "<pre>mods.avaritia.ExtremeCrafting.remove($arrd[81]);</pre>";
+}
+if ($_POST['pd'] != null) {
+  echo "<pre>recipes.removeShaped($arrd[81]);</pre>";
+}
+
+echo "
+<pre>mods.avaritia.ExtremeCrafting.addShaped($arrd[81],
+[[$arrd[0], $arrd[1], $arrd[2], $arrd[3], $arrd[4], $arrd[5], $arrd[6], $arrd[7], $arrd[8]],
+[$arrd[9], $arrd[10], $arrd[11], $arrd[12], $arrd[13], $arrd[14], $arrd[15], $arrd[16], $arrd[17]],
+[$arrd[18], $arrd[19], $arrd[20], $arrd[21], $arrd[22], $arrd[23], $arrd[24], $arrd[25], $arrd[26]],
+[$arrd[27], $arrd[28], $arrd[29], $arrd[30], $arrd[31], $arrd[32], $arrd[33], $arrd[34], $arrd[35]],
+[$arrd[36], $arrd[37], $arrd[38], $arrd[39], $arrd[40], $arrd[41], $arrd[42], $arrd[43], $arrd[44]],
+[$arrd[45], $arrd[46], $arrd[47], $arrd[48], $arrd[49], $arrd[50], $arrd[51], $arrd[52], $arrd[53]],
+[$arrd[54], $arrd[55], $arrd[56], $arrd[57], $arrd[58], $arrd[59], $arrd[60], $arrd[61], $arrd[62]],
+[$arrd[63], $arrd[64], $arrd[65], $arrd[66], $arrd[67], $arrd[68], $arrd[69], $arrd[70], $arrd[71]],
+[$arrd[72], $arrd[73], $arrd[74], $arrd[75], $arrd[76], $arrd[77], $arrd[78], $arrd[79], $arrd[80]]]);
+ </pre>";
+}
+if (isset($_POST['showitem'])) {
+  echo '<form method="post"><input class="out outbotton" type="submit" name="out" value="Убрать"></form><br>'; 
+  foreach ($translate as $key => $val) {
+   echo '<div class="lists out">'.$key.'</div>';
+   }
+}
+if (isset($_POST['showitemn'])) {
+  echo '<form method="post"><input class="out outbotton" type="submit" name="out" value="Убрать"></form>'; 
+  foreach ($translate as $key => $val) {
+   echo '<div class="list out">'.$val.'</div>';
+   }
+}
+
+//echo array_pop( array_keys( $translate));
+//echo array_pop($translate);
+?>
+</body>
+</html>
