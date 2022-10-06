@@ -1,0 +1,116 @@
+.editor {
+	margin-left: 470px;
+	position: relative;
+	z-index: 3!important;
+}
+pre {
+	margin-left: 475px;
+    color: white;
+}
+.getcraft {
+margin-left: 10px;
+color: #fff;
+font-weight: 500;
+width: ;    
+height: ;
+border-radius: 15px;
+background-color: #ac25d9;
+padding: 10px 25px;
+border: none;
+}
+.getcraft:hover {
+color: #ababab;
+text-decoration: none;
+}
+.buttons {
+	color: #fff;
+	border: none;
+	background-color: orange;
+	border-radius: 15px;
+	padding: 7px 18px;
+}
+.buttons1 {
+	border: none;
+	color: #fff;
+	background-color: blueviolet;
+	border-radius: 15px;
+	padding: 7px 18px;
+	margin-top: 10px;
+}
+.buttons:hover {
+	color: gray;
+}
+.buttons1:hover {
+	color: #ababab;
+}
+
+:focus {
+    outline:none;
+}
+textarea {
+margin-left: 4px;
+border: none;
+ resize: none;
+ border-radius: 2px;
+}
+body {
+	background-color: #757575;
+}
+
+.input {
+	padding: 8px;
+	border: none;
+	border-radius: 15px;
+}
+
+.resolt {
+	position: absolute;
+	bottom: 346px;
+	right: 400px;
+}
+.resolt::placeholder {
+	font-weight: 1000;
+	font-style: italic;
+}
+.out {
+
+}
+
+.outbotton {
+   	color: #fff;
+	border: none;
+	background-color: orange;
+	border-radius: 15px;
+	padding: 6px 14px;
+}
+.outbotton:hover {
+	color: gray;
+}
+.outbotton {
+	position: relative;
+	bottom: 735px;
+	position: relative;
+	z-index: 1!important;
+}
+.list {
+	position: relative;
+	bottom: 730px;
+	position: relative;
+	z-index: 1!important;
+}
+.lists {
+  	position: relative;
+	bottom: 750px;
+	position: relative;
+	z-index: 1!important;
+}
+.clear {
+	color: white;
+	border: none;
+	border-radius: 20px;
+	background-color: red;
+	padding: 6px 14px;
+}
+.clear:hover {
+	color: gray;
+}
